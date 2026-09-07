@@ -5,9 +5,9 @@ Code and computational results accompanying the paper:
 > **Maximizing Effectiveness and Equity in Kidney Exchange Programs for Novel Compatibility Paradigms.**
 > Valentina Peralta Clarke, Hans de Ferrante, Francisco Pérez-Galarce, Joris van de Klundert.
 
-The study builds a realistic Kidney Exchange Program (KEP) from real-life data and simulates KEP
+The study builds a realistic Kidney Exchange Program (KEP) from UNOS data and simulates KEP
 optimization under three HLA compatibility paradigms — antigen, allele, and eplet based —
-to compare KEP effectiveness and equity across ethnic subpopulations, and proposes equity-weighted
+to compare KEP effectiveness and equity across ethnic subpopulations, and proposes equity weighted
 optimization models that reduce ethnic inequities without sacrificing access to transplant.
 
 This repository holds the complete computational analysis (code + result tables) referenced in the paper.
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 The case study is built from the OPTN/UNOS star file, obtained under a Data Sharing Agreement.
 The patient-level data — and the imputed recipient/donor pools and mismatch matrices derived from it —
-cannot be redistributed and are therefore not included in this repository (see `.gitignore`).
+cannot be redistributed and are therefore not included in this repository.
 
 The data are available directly from OPTN/UNOS under their data request process. Once obtained, point the
 code at your local copy:
