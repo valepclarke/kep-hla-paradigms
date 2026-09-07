@@ -54,7 +54,3 @@ The imputed recipient/donor pools and the precomputed mismatch matrices (includi
 computed following the HLA Eplet Registry definitions) are derived from the protected HLA typings and
 are therefore not included, and neither are the data-preparation notebooks that operate on individual
 patient records.
-
-## License
-
-Code released under the MIT License (see `LICENSE`). 
